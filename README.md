@@ -19,3 +19,18 @@ Member	Role
 3.	Reusable Components---->	Buttons, Inputs, Cards, Navbar, StatusBadge	
 4.	Citizen Side Features-->	Report Issue + Issue Status + Profile	
 5.	Admin Dashboard-------->	View issues, change status
+
+
+Workflow to make changes:  -----------------Important
+1. Clone repo           git clone <url>
+2. Create branch        git checkout -b <branch name>
+3. Work
+4. Push branch          git push origin <branch name>
+5. Create Pull Request
+
+After merging a PR everyone must run
+git checkout main
+git pull origin main
+to update the new code
+
+
