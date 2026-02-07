@@ -29,8 +29,9 @@ Workflow to make changes:  -----------------Important
 5. Create Pull Request
 
 After merging a PR everyone must run
-git checkout main
-git pull origin main
+1. git checkout main
+2. git pull origin main
+   
 to update the new code
 
 
